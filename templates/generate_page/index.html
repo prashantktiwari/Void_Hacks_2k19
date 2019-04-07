@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Style Transfer</title>
+    <link rel="stylesheet" href="./Style Transfer_files/bootstrap.min.css">
+
+    <style>
+    	.img_input{
+    		width:40%;
+    		margin:0 auto;
+    		text-align: center;
+    		border:2px solid red;
+    		display:inline;
+    		height: 100px;
+    	}
+    	.submit-btn{
+    		width:50%;
+    		margin:0 auto;
+    		text-align: center;
+    		margin:0 auto;
+    		display: block;
+    	}
+
+    	.display-image{
+    		height: 400px;
+    		width: 40%;
+        background: #ccc;
+    	}
+    	table{
+    		width: 100%;
+    		
+    	}
+      tr{
+        border: 1px solid #333;
+        margin: 10px;
+      }
+    </style>	
+
+</head>
+<body>
+    <form action="http://localhost:5000/uploader" method="POST" enctype="multipart/form-data">
+
+   <table>
+   	<tbody>
+      <tr>
+   		<td>Input Image</td>
+   		<td>Style Image</td>
+   	</tr>
+   	<tr>
+   		<td><input type="file" name="input_image"></td>
+   		<td><input type="file" name="style_image"></td>
+   	</tr>
+   	<tr>
+   		<td class="display-image"></td>
+   		<td class="display-image"></td>
+   	</tr>
+   	<tr><td colspan="2"><input type="submit" value="Generate" class="submit-btn"></td></tr>
+   </tbody></table>
+
+
+   <div class="output">
+     
+   </div>
+
+</form>   
+
+</body></html>
