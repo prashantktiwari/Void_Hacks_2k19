@@ -32,6 +32,6 @@ Mayank Sahu<br/>
 Prateek Bagre<br/>
 
 # Acknowledgments
->We are living in future so
-Inspiration :sparkles:
-etc
+>We are living in future :rocket:<br/>
+>Inspiration :sparkles: <br/>
+>etc :octocat:
