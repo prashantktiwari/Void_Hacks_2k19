@@ -1,6 +1,5 @@
 # Void_Hacks_2k19
-Repositry of project created on void hacks() compitition 
-
+Repositry of project created on **void hacks()** competition
 # Project Title
 TRANSYLE is a tool programmed to Transfer the Style from a Texture image to your desired Input image. With it, you can Swap any style/texture onto your Desired picture and can play around with it without compromising with the Content quality.
 ![alt text](https://github.com/mass9/Void_Hacks_2k19/blob/master/static/page.jpg)
